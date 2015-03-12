@@ -2,10 +2,9 @@
 # bin/release <build-dir>
 
 # important directories: https://gist.github.com/fe7f04abbd9538b656c5
-BUILD_DIR=$1
-echo '====>'
-cat <<EOF
----
-default_process_types:
-  web: /app/nginx/start
-EOF
+#BUILD_DIR=$1
+#cat <<EOF
+#---
+#default_process_types:
+#  web: /app/nginx/start
+#EOF
